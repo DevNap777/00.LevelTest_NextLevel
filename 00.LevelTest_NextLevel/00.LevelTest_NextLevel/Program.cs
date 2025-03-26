@@ -4,8 +4,9 @@
     {
         public static int SumOfDigits(int number)
         {
+            string userInput;
             // 각 자리 수의 합을 담기 위한 정수형 변수
-            int result = 0;
+            int result = int.Parse(Console.ReadLine());
 
             // while 반복문이 number보다 클 때 동작하도록 설정
             while (number > 0)
@@ -18,8 +19,8 @@
         static void Main(string[] args)
         {
             // 주어진 숫자의 각 자리수의 합을 구하는 함수를 작성하시오.
-           
-            
+
+            Console.WriteLine(SumOfDigits);
         }
     }
 }
